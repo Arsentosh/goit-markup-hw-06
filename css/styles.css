@@ -907,10 +907,12 @@ a > span {
 .modal-form {
   position: relative;
   margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .modal-field {
-  margin-bottom: 28px;
+  margin-bottom: 8px;
 }
 
 .input-label {
@@ -1065,4 +1067,5 @@ a > span {
 .send-container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
