@@ -556,7 +556,7 @@
 
     <!-- backdrop -->
 
-    <div class="backdrop is-hiddenn" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
           <svg class="close-icon" width="8" height="8">
@@ -607,14 +607,29 @@
             ></textarea>
           </div>
 
-          <div>
-            <input type="checkbox" />
-            <p>
+          <div class="modal-field">
+            <input
+              type="checkbox"
+              id="privacy"
+              name="privacy"
+              value="on"
+              class="modal-check visually-hidden"
+            />
+            <label for="privacy" class="check-text">
+              <span>
+                <svg class="icon-check" width="10" height="10">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
               I accept the terms and conditions of the
-              <a href="http://" target="_blank" rel="noopener noreferrer"
+              <a
+                class="privacy-link"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
                 >Privacy Policy</a
               >
-            </p>
+            </label>
           </div>
           <div class="send-container">
             <button class="btn-send" type="submit">Send</button>
