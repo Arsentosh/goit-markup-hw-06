@@ -606,6 +606,7 @@ a > span {
 }
 
 .sub-form {
+  display: flex;
   gap: 24px;
 }
 
@@ -633,6 +634,9 @@ a > span {
 }
 
 .subscribe {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   display: inline-flex;
   align-items: center;
   position: absolute;
@@ -645,6 +649,12 @@ a > span {
   border-radius: 4px;
   color: #ffffff;
   border-style: none;
+  min-width: 165px;
+  cursor: pointer;
+}
+
+.plane {
+  margin-left: 16px;
 }
 
 /* _$_$_$_$_$_$_$_$_$_$_ADDITIONAL INFO FOR PORTFOLIO */
