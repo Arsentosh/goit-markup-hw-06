@@ -580,14 +580,11 @@ a > span {
 
 .footer-form {
   margin-left: 80px;
-}
-
-.form-field {
   display: flex;
   flex-direction: row;
 }
 
-.form-field input {
+.footer-form input {
   background-color: transparent;
   border: none;
   width: 300px;
@@ -598,7 +595,7 @@ a > span {
   outline: none;
 }
 
-.sub-form {
+.sub-par {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -608,9 +605,31 @@ a > span {
   margin-bottom: 16px;
 }
 
+.sub-form {
+  gap: 24px;
+}
+
 .footer-label {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+}
+
+.footer-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.footer-input::placeholder {
+  color: #ffffff;
 }
 
 .subscribe {
