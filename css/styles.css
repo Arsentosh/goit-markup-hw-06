@@ -911,8 +911,8 @@ a > span {
 }
 
 .modal-field {
-  margin-bottom: 16px;
-  /* margin-bottom: 8px; */
+  margin-bottom: 8px;
+  /* margin-bottom: 16px; */
 }
 
 .input-label input {
@@ -971,7 +971,7 @@ a > span {
   border-radius: 4px;
   resize: none;
   outline: transparent;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
