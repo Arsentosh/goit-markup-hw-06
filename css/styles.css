@@ -915,7 +915,7 @@ a > span {
   /* margin-bottom: 16px; */
 }
 
-.modal-field .com {
+.modal-field.com {
   margin-bottom: 16px;
 }
 
