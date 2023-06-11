@@ -915,6 +915,10 @@ a > span {
   /* margin-bottom: 16px; */
 }
 
+.modal-field .com {
+  margin-bottom: 16px;
+}
+
 .input-label input {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
