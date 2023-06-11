@@ -825,7 +825,7 @@ a > span {
 
 .modal {
   position: absolute;
-
+  padding: 72px 24px 24px 24px;
   width: 408px;
   min-height: 584px;
   left: 50%;
@@ -907,18 +907,14 @@ a > span {
 
 .modal-form {
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   display: flex;
   flex-direction: column;
 }
 
 .modal-field {
-  margin-bottom: 16px;
-  /* margin-bottom: 8px; */
-}
-
-.input-label {
-  margin-bottom: 40px;
+  margin-bottom: 8px;
+  /* margin-bottom: 16px; */
 }
 
 .input-label input {
@@ -1012,7 +1008,6 @@ a > span {
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 24px;
-  display: flex;
   align-items: center;
 }
 
