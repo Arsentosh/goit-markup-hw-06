@@ -610,6 +610,7 @@ a > span {
 
 .sub-form {
   display: flex;
+  gap: 24px;
 }
 
 .footer-label {
@@ -641,11 +642,9 @@ a > span {
   letter-spacing: 0.04em;
   display: inline-flex;
   align-items: center;
-  margin-left: 24px;
   flex-direction: row;
   justify-content: center;
   padding: 8px 24px;
-  gap: 16px;
   background: #4d5ae5;
   border-radius: 4px;
   color: #ffffff;
@@ -656,6 +655,7 @@ a > span {
 
 .plane {
   fill: #ffffff;
+  margin-left: 16px;
 }
 
 /* _$_$_$_$_$_$_$_$_$_$_ADDITIONAL INFO FOR PORTFOLIO */
@@ -1051,7 +1051,7 @@ a > span {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   min-width: 169px;
-  margin-left: 169px;
+  margin: 0 auto;
   height: 56px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
