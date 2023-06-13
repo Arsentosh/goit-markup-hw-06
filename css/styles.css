@@ -1035,8 +1035,15 @@ a > span {
   border-color: var(--btn-color);
 }
 
+.wrap-privacy:focus .check {
+  border-color: var(--btn-color);
+}
+
+.check:focus {
+  border-color: var(--btn-color);
+}
+
 .privacy-link {
-  /* margin-left: 4px; */
   color: var(--iris-color);
 }
 
